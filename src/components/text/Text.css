@@ -1,0 +1,79 @@
+.family{
+    font-family: "Open Sans", sans-serif;
+}
+
+.h6{
+    font-size: 14px;
+}
+
+.h5{
+    font-size: 16px;
+}
+
+.h4{
+    font-size: 18px;
+}
+
+.h3{
+    font-size: 20px;
+}
+
+.h2{
+    font-size: 22px;
+}
+
+.h1{
+    font-size: 24px;
+}
+
+.regular{
+    font-weight: normal;
+}
+
+.medium{
+    font-weight: 500;
+}
+
+.semibold{
+    font-weight: 600;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.tiny{
+    line-height: 13px;
+}
+
+.medium{
+    line-height: 19px;
+}
+
+.large{
+    line-height: 22px;
+}
+
+.super{
+    line-height: 24px;
+}
+
+.extra{
+    line-height: 27px;
+}
+
+.super-extra{
+    line-height: 33px;
+}
+
+.white{
+    color: white;
+}
+
+.gray{
+    color: #ccc;
+}
+
+.black{
+    color: black;
+}

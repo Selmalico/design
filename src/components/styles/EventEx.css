@@ -1,0 +1,22 @@
+.eventpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    color: white;
+  }
+  .event-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    position: relative;
+  }
+  .page{
+    height: 585px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    mask-image: linear-gradient(to bottom, black, transparent 80%);
+    overflow: hidden;
+  }

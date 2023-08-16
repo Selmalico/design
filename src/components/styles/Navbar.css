@@ -1,0 +1,66 @@
+.navbar{
+    background-color: #16161B;
+    color: white;
+    font-family: "Open Sans", serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-data{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.app-name{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 25px 0;
+    font-weight: bold;
+}
+
+.user-photo{
+    border-radius: 59px;
+    height: 29px;
+    width: 29px;
+    margin: 24px 16px 24px 8px;
+}
+
+.name{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row; 
+        align-items: center;
+    }
+
+    .app-name{
+        font: normal normal bold 20px/27px Open Sans;
+    }
+    
+    .user-data{
+        font: normal normal normal 18px/24px Open Sans;
+    }
+    .user-photo{
+    border-radius: 59px;
+    height: 42px;
+    width: 42px;
+}
+}
+
+
+
+
+
+
