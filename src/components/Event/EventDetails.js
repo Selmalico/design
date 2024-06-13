@@ -1,7 +1,7 @@
 import React from "react";
-import "./styles/CardDetails.css";
-import background from "./event1.jpg";
-import Text from "./text/Text";
+import "../styles/CardDetails.css";
+import background from "../assets/event1.jpg";
+import Text from "../text/Text";
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays } from "@fortawesome/free-regular-svg-icons";

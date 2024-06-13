@@ -1,5 +1,5 @@
-import "./styles/Events.css";
-import Text from "./text/Text";
+import "../styles/Events.css";
+import Text from "../text/Text";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 const Events = ({ title, place, price, day, month, background }) => {
