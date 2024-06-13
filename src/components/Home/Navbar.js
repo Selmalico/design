@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./styles/Navbar.css";
+import "../styles/Navbar.css";
 import { useState, useEffect } from "react";
-import Text from "./text/Text";
-import userPhoto from "./user.jpg";
+import Text from "../text/Text";
+import userPhoto from "../assets/user.jpg";
 
 const Navbar = () => {
   const [screenSize, setScreenSize] = useState(window.innerWidth);
@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="container">
         <Link className="app-name" href="/">
           <Text
-            info={"App Name"}
+            info={"TALEAS EVENT"}
             size={"h3"}
             weight={"bold"}
             lineheight={"extra"}

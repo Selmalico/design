@@ -1,5 +1,5 @@
-import "./styles/Card.css";
-import Text from "./text/Text";
+import "../styles/Card.css";
+import Text from "../text/Text";
 const Cards = ({ title, date, background }) => {
   return (
     <div
